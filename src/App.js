@@ -1,12 +1,16 @@
 import './App.css';
-import NavBar from './components/navBar';
+import Banner from './components/banner/banner';
+import NavBar from './components/navBar/navBar';
 import ParticlesBackground from './particlesBackground';
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-    <ParticlesBackground/>
+      <Banner/>
+      <ParticlesBackground/>
+    
+   
     
 
     </div>

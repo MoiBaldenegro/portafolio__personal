@@ -1,0 +1,34 @@
+
+
+.rowContainer{
+    display: flex;
+    justify-content: center;
+
+}
+.rowOne{
+    width: 60%;
+    z-index: 10;
+    margin: 150px 50px 0px 50px;
+
+}
+
+.rowTwo{
+    width: 30%;
+    z-index: 10;
+    margin: 150px 50px 0px 0px;
+
+}
+
+.smn{
+    height: 85vh;
+    z-index: 50;
+    align-items: center;
+    z-index: 10;
+ 
+}
+
+.headerLogo{
+    width:350px;
+    z-index: 10;
+
+}

@@ -56,9 +56,9 @@ export default function Banner(){
                         <Row className={ style.rowContainer }>
                             <Col xs={ 12 } md={ 6 } xl={ 7 } className={ style.rowOne } >
                             <span className={style.tagline}>Welcome to my website! </span>
-                            <h1> {"Hi, I'm Moises Baldenegro Melendez "} <span className={style.wrap}> {text}</span></h1>
-                            <p> Estoy aquí para convertir tus ideas en realidad digital, con un toque de creatividad y diversión.podemos construir proyectos increíbles y dejar una huella digital que marque la diferencia. ¡Contáctame y descubramos cómo podemos crear algo asombroso!</p>
-                             <button onClick={ accion }> Let's conect </button><ArrowRightCircle size={25} />     
+                            <h1 className={ style.animationText }> {"Hi, I'm Moises Baldenegro Melendez "} <br/>  <span className={style.wrap}> {text}</span></h1>
+                            <p className={ style.description } > Estoy aquí para convertir tus ideas en realidad digital, con un toque de creatividad y diversión.podemos construir proyectos increíbles y dejar una huella digital que marque la diferencia. ¡Contáctame y descubramos cómo podemos crear algo asombroso!</p>
+                            <div className={ style.buttonConect }> <button  className={style.button } onClick={ accion }> Let's conect <ArrowRightCircle size={25} /> </button> </div>    
                             </Col>
                             <Col xs={ 12 } md={ 6 } xl={ 5 } className={ style.rowTwo } >
                                 <img src= { HeaderLogo }  alt="header_logo" className={ style.headerLogo }   />  

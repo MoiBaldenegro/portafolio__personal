@@ -6,9 +6,14 @@
 
 }
 .rowOne{
+    display: flex;
+    flex-direction: column;
+    
     width: 60%;
     z-index: 10;
     margin: 150px 50px 0px 50px;
+    height: 400px;
+
 
 }
 
@@ -22,13 +27,51 @@
 .smn{
     height: 85vh;
     z-index: 50;
-    align-items: center;
-    z-index: 10;
+    position: relative;
+
  
+}
+.animationText{
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 70px;
+
+ }
+    
+
+
+
+.tagline{
+    margin: 20px;
+    font-size: 24px;
+}
+.description{
+    margin-top: 80px;
 }
 
 .headerLogo{
     width:350px;
     z-index: 10;
 
+}
+.buttonConect{
+    display: flex;
+
+    width: 180px;
+    align-items: center;
+    margin: auto;
+    justify-content:  space-between;
+    border-radius: 8px;
+  
+}
+.button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 22px;
+    gap: 5px;
+    padding: 5px;
+    border: none;
+    
+   
 }
